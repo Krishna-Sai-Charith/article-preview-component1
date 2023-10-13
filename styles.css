@@ -1,0 +1,116 @@
+body{
+    background-color: #EDF2F8;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    position: relative;
+}
+.drawers-img{
+    height:260px;
+    width:275px;
+    border-radius: 7px 0px 0px 7px;
+}
+.content-section{
+    height: 250px;
+    width:415px;
+    border-radius: 0px 7px 7px 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: white;
+}
+.text-section{
+    margin-left: 20px;
+    width: 320px;
+}
+h1{
+    font-family: 'Manrope', sans-serif;
+    color: #48556A; 
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+}
+.user{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+}
+.user-name{
+    color: #4D5565;
+    font-weight: bold;
+    font-size: 12px;
+}
+.user-date{
+    color:#A2A7AE;
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: 2.5px;
+}
+.user-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.just-user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.user-share{
+    display: flex;
+    gap: 135px;
+}
+button{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border: 0px;
+}
+button:hover{
+    background-color: hsl(214, 17%, 51%);
+}
+button:active {
+    background-color: hsl(217, 19%, 35%);
+    transform: translateY(2px);
+  }
+.speech-bubble{
+    display: flex;
+    background-color:hsl(217, 19%, 35%) ;
+    height: 55px;
+    width: 260px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 17.5px;
+    margin-left: 50%;
+    margin-top: -35%;
+    border-radius: 10px;
+}
+.share-p{
+    letter-spacing: 5px;
+}
+.share-images{
+    display: flex;
+    gap: 17.5px;
+}
+.speech-bubble:after{
+    content:' ';
+    position:absolute;
+    bottom:0;
+    left:40%;
+    width:0;
+    height:0;
+    border:17.5px solid transparent;
+    border-top-color:hsl(217, 19%, 35%) ;
+    border-bottom:0;
+    margin-left:20px;
+    margin-bottom:-12.5px;
+}
